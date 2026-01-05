@@ -1,0 +1,10 @@
+langchain==1.2.0
+arxiv
+wikipedia
+langchain_community
+langchain_openai
+langchain_text_splitters
+langchain_classic
+langchain_groq
+langchainhub
+python-dotenv
