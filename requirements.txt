@@ -8,3 +8,5 @@ langchain_classic
 langchain_groq
 langchainhub
 python-dotenv
+streamlit
+ddgs

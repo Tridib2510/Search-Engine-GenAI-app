@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "arxiv>=2.4.0",
+    "ddgs>=9.10.0",
     "langchain==1.2.0",
     "langchain-classic>=1.0.1",
     "langchain-community>=0.4.1",
@@ -14,5 +15,6 @@ dependencies = [
     "langchain-text-splitters>=1.1.0",
     "langchainhub>=0.1.21",
     "python-dotenv>=1.2.1",
+    "streamlit>=1.52.2",
     "wikipedia>=1.4.0",
 ]
