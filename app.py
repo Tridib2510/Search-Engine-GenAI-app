@@ -8,7 +8,7 @@ from langchain_classic.agents import initialize_agent,AgentType
 from langchain_classic.callbacks import StreamlitCallbackHandler
 # """
 ## What does StreamlitCallbackHandler do?
-
+#
 # It:
 
 # Streams tokens as they’re generated
