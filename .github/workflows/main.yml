@@ -14,7 +14,14 @@ jobs:
         with:
           fetch-depth: 0
           lfs: true
+      
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://Tridib2510:$HF_TOKEN@huggingface.co/spaces/Tridib2510/Search_Engine_LLM  main
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git remote add hf https://Tridib2510:$HF_TOKEN@huggingface.co/spaces/Tridib2510/Search_Engine_LLM
+          git fetch hf
+          git pull hf main --rebase --allow-unrelated-histories || true
+          git push hf main
