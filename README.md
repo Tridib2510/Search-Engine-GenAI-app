@@ -1,10 +1,12 @@
+---
 license: apache-2.0
 title: Search-Engine-GenAI-app
 sdk: streamlit
 emoji: 🏃
 colorFrom: red
 colorTo: yellow
-short_description: Search Engine with LLM
+short_description: A search engine GenAI app
+---
 
 
 # Search-Engine-GenAI-app
@@ -125,4 +127,3 @@ MIT License
 ## ⭐ Support
 
 If you like this project, give it a ⭐ on GitHub!
-
