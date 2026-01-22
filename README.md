@@ -1,3 +1,12 @@
+license: apache-2.0
+title: Search-Engine-GenAI-app
+sdk: streamlit
+emoji: 🏃
+colorFrom: red
+colorTo: yellow
+short_description: Search Engine with LLM
+
+
 # Search-Engine-GenAI-app
 
 A **Generative AI–powered Search Engine** built with Python.  
@@ -116,3 +125,4 @@ MIT License
 ## ⭐ Support
 
 If you like this project, give it a ⭐ on GitHub!
+
